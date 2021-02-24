@@ -1,0 +1,454 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+    background-image: url('../images/gradient-mark-01.png');
+	/*background-color: #FFF;*/
+}
+body,td,th {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-image: url(../source/images/bg.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+.container{
+    /*background-color: #3ADF00;*/
+}
+
+.col-md-12 {
+    text-align: center;
+}
+
+a:link {
+	color: #039;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #039;
+}
+
+a:hover, .about, .nav-item, .one {
+	color: #0A0;
+	
+}
+
+.about, .nav-item, .one {
+    color: #000;
+}
+
+a:active, a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+h1, .ourcomp {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: #000;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #FFF;
+}
+
+#container {	
+	width: 911px;
+	height: 780px;
+	margin: 0px auto;
+	position: relative;
+	background-image: url('../source/images/contentbg.png'); 
+}
+
+#header {
+	width: auto;
+	height: 174px;
+	text-align: center;
+	background-image: url('../source/images/header.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#logo {
+	width: auto;
+	height: 40px;
+	text-align: left;
+	margin-left: 133px;
+	padding-top: 0px;
+}
+
+#topmenu {
+	width: 500px;
+	text-align: left;
+	margin-top: -25px;
+	margin-left: 100px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+}
+
+li {
+	display:inline; 
+	margin: 0.5em; 
+}
+
+a {
+	font-size: 1em;
+}
+
+#content {
+	margin-left: 140px;
+	margin-right: 140px;
+	display: block;
+}
+
+#wedo {
+	background-image: url('../source/images/wedo.png');
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 120px;
+	margin-left: -14px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+#how {
+	background-image: url('../source/images/howitworks.png');
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 50px;
+	margin-left: 0px;
+	margin-top: 60px;
+}
+
+#ourcomp {
+	background-image: url('../source/images/ourcomp.png');
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 50px;
+	margin-left: 0px;
+	margin-top: 60px;
+}
+
+#contactus {
+	background-image: url('../source/images/contact.png');
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 50px;
+	margin-left: 0px;
+	margin-top: 60px;
+}
+
+#questions {
+	background-image: url('../source/images/questions.png');
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 50px;
+	margin-left: 0px;
+	margin-top: 60px;
+}
+
+#mouse {
+	background-image: url('../source/images/mouse.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 300px;
+	height: 350px;
+	margin-top:-125px;
+	margin-right: -50px;
+	float:right;
+}
+
+#guymag {
+	background-image: url('../source/images/Find-Tax-PropertyTrans.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 300px;
+	height: 260px;
+	margin-top:-60px;
+	margin-right: -50px;
+	float:right;
+}
+
+#guyquestions {
+	background-image: url('../source/images/guyquestions.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 300px;
+	height: 260px;
+	margin-top:-60px;
+	margin-right: -50px;
+	float:right;
+}
+#guycontact {
+	background-image: url('../source/images/guycontact.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 340px;
+	height: 260px;
+	margin-top:-60px;
+	margin-right: -60px;
+	float:right;
+}
+
+#certcontact {
+	background-image: url('../source/images/TaxPayerRefundCertSeal.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 340px;
+	height: 290px;
+	margin-top:-60px;
+	margin-right: -90px;
+	float:right;
+}
+
+#comp {
+	background-image: url('../source/images/StrategytoSuccessBlue.jpg');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 300px;
+	height: 260px;
+	margin-top:-60px;
+	margin-left: 15px;
+	margin-right: -50px;
+	float:right;
+}
+
+#certcomp {
+	background-image: url('../source/images/TaxPayerRefundCertSeal.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 300px;
+	height: 290px;
+	margin-top:-70px;
+	margin-left: 15px;
+	margin-right: -80px;
+	float:right;
+}
+
+#footer {
+	width:auto;
+	height:240px;
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-top: 30px;
+	display: block;
+	background-image: url('../source/images/stacks.png');
+	background-repeat: no-repeat;
+	padding-left:380px;
+}
+
+#certfooterhome {
+	width:auto;
+	height:290px;
+	margin-left: 100px;
+	margin-right: 80px;
+	margin-top: 0px;
+	display: block;
+	background-image: url('../source/images/TaxPayerRefundCertSeal.png');
+	background-repeat: no-repeat;
+	padding-left:280px;
+}
+
+#certfootercomp {
+	width:auto;
+	height:240px;
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-top: 0px;
+	display: block;
+	background-image: url('../source/images/StrategytoSuccessBlue.jpg');
+	background-repeat: no-repeat;
+	padding-left:380px;
+}
+
+#footerend {
+	background-image: url('../source/images/hr.png');
+	background-repeat: repeat-x;
+	width:auto;
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-top: 10px;
+	padding: 25px;
+	text-align: center;
+}
+
+/*-------------Shorts Llc styles-----------------*/
+/*---------------GRID LAYOUT--------------------------*/
+body {
+ background-image: url('../images/bg.png');   
+}
+
+.container {
+  display: grid;
+  grid-template: auto auto auto;
+  grid-gap: 1px;
+  background-image: url('../images/bg1.png'); 
+  text-align: center;
+  background-repeat: repeat-x;  
+}
+
+.col-md-6 {
+    padding: 0;
+}
+
+svg {
+    padding-right: 15px;
+}
+
+.strong  {
+    font-weight: bolder;
+}
+
+.middle {
+    float: right;
+    padding-right: 5px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.alignleft {
+   padding-right: 20px;
+    
+}
+
+.alignright {
+    text-align: right;
+    padding-bottom: 40px;
+}
+
+.assured {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.callus {
+    padding-right: 40px;
+}
+
+.success-image {
+   
+   padding-right: 20px; 
+}
+
+.findtaximage {
+    align-items: center;
+}
+
+.ourcomp .contactus {
+    font-size: 30px;
+    text-align: left;
+    color: blue;
+    font-weight: 600;
+}
+
+.howitworks, .questions {
+    font-size: 30px;
+    text-align: left;
+    color: blue;
+    font-weight: 600;
+}
+
+.smallgroup, .callus  {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.paperwork {
+    text-align: left;
+    font-size: 0.9em;
+    padding-right: 70px;
+}
+
+.audit, .callus, .payment, .findmoney {
+    text-align: left;
+}
+
+.findmoney {
+    font-size: 20px;
+}
+
+.findtaximage {
+     text-align: left;
+     padding-right: 80px;
+}
+
+.askquestions {
+    padding-right: 60px;
+}
+
+.ourmission, .ourvision, .ourcomp, .askquestions {
+    text-align: left;
+}
+
+.contactus {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: blue;
+    font-weight: 400;
+    padding: 25px 0px 25px 0px;
+}
+.contact, .yourcontact {
+    text-align: left;
+    font-size: 20px;
+}
+
+.call {
+    text-align: left;
+}
+
+.emailcontact {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.name {
+    margin-left: 20px;
+    background-color: aqua;
+}
+
+.moveup {
+    margin-top: -30px;
+}
+
+.mission, .vision, .smallgroup {
+    font-size: 0.9em;
+    text-align: left;
+    padding-right: 70px;
+}
+
+.bottomtext {
+    text-align: left;
+    font-size: 0.9em;
+    padding-right: 40px;
+    padding-left: 5px;
+}
+
+.bottomimage {
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+#copyright, .about {
+    padding: 0px 0px 5px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
